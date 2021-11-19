@@ -1,6 +1,6 @@
 {
     "name": "nest-influxdb",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "main": "./dist/index.js",
     "repository": "https://github.com/vlzh/nest-influxdb",
     "author": "vlzh",
@@ -20,16 +20,16 @@
     ],
     "dependencies": {},
     "devDependencies": {
-        "@nestjs/common": "^6.8.3",
-        "@typescript-eslint/eslint-plugin": "^2.3.3",
-        "@typescript-eslint/parser": "^2.3.3",
-        "eslint": "^6.5.1",
+        "@nestjs/common": "^^8.0.0",
+        "@typescript-eslint/eslint-plugin": "^5.0.0",
+        "@typescript-eslint/parser": "^5.0.0",
+        "eslint": "^8.0.1",
         "influx": "^5.4.2",
-        "typescript": "^3.6.4"
+        "typescript": "^4.3.5"
     },
     "peerDependencies": {
         "@nestjs/common": "^6.8.3",
-        "influx": "^5.4.2"
+        "influx": "^5.9.2"
     },
     "prettier": {
         "tabWidth": 4
